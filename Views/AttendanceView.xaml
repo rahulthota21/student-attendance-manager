@@ -1,0 +1,16 @@
+<UserControl x:Class="AttendanceApp.Views.AttendanceView"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <StackPanel Margin="10">
+        <DatePicker x:Name="AttendanceDate" SelectedDate="{x:Static sys:DateTime.Now}" />
+        <ItemsControl x:Name="AttendanceList">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Name}" Width="150"/>
+                        <CheckBox Content="Present" Tag="{Binding Id}" Checked="Status_Changed" Unchecked="Status_Changed"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </StackPanel>
+</UserControl>

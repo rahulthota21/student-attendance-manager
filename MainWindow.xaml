@@ -1,0 +1,9 @@
+<Window x:Class="AttendanceApp.MainWindow"
+        Title="Dashboard" Height="600" Width="800"
+        xmlns:views="clr-namespace:AttendanceApp.Views">
+    <TabControl>
+        <TabItem Header="🧑 Students"><views:StudentsView /></TabItem>
+        <TabItem Header="✅ Attendance"><views:AttendanceView /></TabItem>
+        <TabItem Header="📊 Reports"><views:ReportsView /></TabItem>
+    </TabControl>
+</Window>

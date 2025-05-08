@@ -1,0 +1,6 @@
+<UserControl x:Class="AttendanceApp.Views.ReportsView">
+    <StackPanel Margin="10">
+        <Button Content="Generate Report" Click="Generate_Click" Margin="0,0,0,10"/>
+        <DataGrid x:Name="ReportGrid" AutoGenerateColumns="True" Height="400"/>
+    </StackPanel>
+</UserControl>

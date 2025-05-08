@@ -1,0 +1,10 @@
+<Window x:Class="AttendanceApp.LoginWindow"
+        Title="Login"
+        Height="200" Width="300"
+        WindowStartupLocation="CenterScreen">
+    <StackPanel Margin="20">
+        <TextBox x:Name="UsernameBox" Margin="0,0,0,10" PlaceholderText="Username"/>
+        <PasswordBox x:Name="PasswordBox" Margin="0,0,0,10"/>
+        <Button Content="Login" Click="Login_Click"/>
+    </StackPanel>
+</Window>
