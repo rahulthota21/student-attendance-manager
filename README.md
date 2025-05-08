@@ -8,7 +8,7 @@ A clean, responsive, and fully functional WPF desktop application to manage stud
 
 ## 🖼 Preview
 
-![App Screenshot](fig1.png)
+![App Screenshot](Assets/fig1.png)
 
 ---
 
