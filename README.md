@@ -102,4 +102,4 @@ PRs are welcome! Please fork this repo and open a pull request. Make sure to tes
 
 ## 📃 License
 
-MIT © 2025 — [Your Name](https://github.com/your-username)
+MIT © 2025 — [Thota Rahul](https://github.com/rahulthota21)
